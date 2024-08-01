@@ -1,0 +1,31 @@
+#cards{
+  height:12em;
+  width:8em; 
+  position:relative;
+}
+#cards .card{
+  position:absolute;
+  opacity:1;
+}
+.player .card {float:left;}
+.card{
+  height:12em;
+  width:8em;
+  border-radius:1.2em;
+  display:block;
+  box-shadow:0 .25em 1.25em -.5em;
+  background:url(uno.svg) 0 0 no-repeat;
+  background-size:112em;
+  opacity:.5;
+}
+.card.playable{
+  opacity:1;
+}
+.player{
+  display:block;
+  border:2px solid;
+  float:left;
+  width:100%;
+}
+
+.hand.hide{display:none;}
